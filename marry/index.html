@@ -1,9 +1,9 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Marry Ventuers</title>
+<title>[Business Name]</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
@@ -11,21 +11,20 @@
 <body>
  
 <header>
-  <div class="logo">Marry Ventuers</div>
+  <div class="logo">[Business Name]</div>
   <nav>
     <a href="#clothes">Clothes</a>
-    <a href="#perfume">Perfume</a>
+    <a href="#perfumes">Perfumes</a>
     <a href="#catering">Catering</a>
     <a href="#order">Order</a>
   </nav>
 </header>
-<div class="weave"></div>
  
 <section class="hero">
   <div>
     <div class="eyebrow">Ijebu Ode &amp; beyond</div>
-    <h1>Good clothes,<br><em>better</em> Perfume,<br>food that shows up.</h1>
-    <p>Marry Ventuers brings together curated fashion pieces, freshly made Perfume, and small-event catering — made by hand, made to order. Replace this line with your real story.</p>
+    <h1>Good clothes,<br><em>better</em> catering,<br>food that shows up.</h1>
+    <p>[Business Name] brings together curated fashion pieces, quality perfumes, and small-event catering — made by hand, made to order. Replace this line with your real story.</p>
     <div class="btn-row">
       <a href="#order" class="btn btn-solid">Place an order</a>
       <a href="#catering" class="btn btn-outline">See catering menu</a>
@@ -39,68 +38,336 @@
 <section class="stall" id="clothes">
   <div class="stall-head">
     <div class="stall-title">Clothes</div>
-    <div class="stall-tag">new drops weekly</div>
+    <div class="stall-tag">tap a category</div>
   </div>
-  <div class="card-grid">
-    <div class="card">
-      <div class="card-img">product photo</div>
-      <div class="card-body">
-        <div class="card-title">Item name</div>
-        <div class="card-desc">Short description — fabric, size range, fit notes.</div>
-        <div class="card-price">₦0,000</div>
+ 
+  <div class="tab-row">
+    <button class="tab-btn active" data-tab="men">Men</button>
+    <button class="tab-btn" data-tab="women">Women</button>
+    <button class="tab-btn" data-tab="kids">Kids</button>
+    <button class="tab-btn" data-tab="native">Native Wear</button>
+    <button class="tab-btn" data-tab="accessories">Accessories</button>
+  </div>
+ 
+  <div class="tab-panel active" data-panel="men">
+    <div class="tab-count">Men</div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-img">product photo</div>
+        <div class="card-body">
+          <div class="card-title">Item name</div>
+          <div class="card-desc">Short description — fabric, size range, fit notes.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">product photo</div>
+        <div class="card-body">
+          <div class="card-title">Item name</div>
+          <div class="card-desc">Short description — fabric, size range, fit notes.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">product photo</div>
+        <div class="card-body">
+          <div class="card-title">Item name</div>
+          <div class="card-desc">Short description — fabric, size range, fit notes.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
       </div>
     </div>
-    <div class="card">
-      <div class="card-img">product photo</div>
-      <div class="card-body">
-        <div class="card-title">Item name</div>
-        <div class="card-desc">Short description — fabric, size range, fit notes.</div>
-        <div class="card-price">₦0,000</div>
+  </div>
+ 
+  <div class="tab-panel" data-panel="women">
+    <div class="tab-count">Women</div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-img">product photo</div>
+        <div class="card-body">
+          <div class="card-title">Item name</div>
+          <div class="card-desc">Short description — fabric, size range, fit notes.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">product photo</div>
+        <div class="card-body">
+          <div class="card-title">Item name</div>
+          <div class="card-desc">Short description — fabric, size range, fit notes.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">product photo</div>
+        <div class="card-body">
+          <div class="card-title">Item name</div>
+          <div class="card-desc">Short description — fabric, size range, fit notes.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
       </div>
     </div>
-    <div class="card">
-      <div class="card-img">product photo</div>
-      <div class="card-body">
-        <div class="card-title">Item name</div>
-        <div class="card-desc">Short description — fabric, size range, fit notes.</div>
-        <div class="card-price">₦0,000</div>
+  </div>
+ 
+  <div class="tab-panel" data-panel="kids">
+    <div class="tab-count">Kids</div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-img">product photo</div>
+        <div class="card-body">
+          <div class="card-title">Item name</div>
+          <div class="card-desc">Short description — fabric, size range, fit notes.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">product photo</div>
+        <div class="card-body">
+          <div class="card-title">Item name</div>
+          <div class="card-desc">Short description — fabric, size range, fit notes.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">product photo</div>
+        <div class="card-body">
+          <div class="card-title">Item name</div>
+          <div class="card-desc">Short description — fabric, size range, fit notes.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="tab-panel" data-panel="native">
+    <div class="tab-count">Native Wear</div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-img">product photo</div>
+        <div class="card-body">
+          <div class="card-title">Item name</div>
+          <div class="card-desc">Short description — fabric, size range, fit notes.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">product photo</div>
+        <div class="card-body">
+          <div class="card-title">Item name</div>
+          <div class="card-desc">Short description — fabric, size range, fit notes.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">product photo</div>
+        <div class="card-body">
+          <div class="card-title">Item name</div>
+          <div class="card-desc">Short description — fabric, size range, fit notes.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="tab-panel" data-panel="accessories">
+    <div class="tab-count">Accessories</div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-img">product photo</div>
+        <div class="card-body">
+          <div class="card-title">Item name</div>
+          <div class="card-desc">Short description — fabric, size range, fit notes.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">product photo</div>
+        <div class="card-body">
+          <div class="card-title">Item name</div>
+          <div class="card-desc">Short description — fabric, size range, fit notes.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">product photo</div>
+        <div class="card-body">
+          <div class="card-title">Item name</div>
+          <div class="card-desc">Short description — fabric, size range, fit notes.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
       </div>
     </div>
   </div>
 </section>
  
-<section class="stall perfume" id="perfume">
+<div class="weave"></div>
+ 
+<section class="stall" id="perfumes">
   <div class="stall-head">
-    <div class="stall-title">Perfume</div>
-    <div class="stall-tag">baked to order</div>
+    <div class="stall-title">Perfumes &amp; Scents</div>
+    <div class="stall-tag">tap a category</div>
   </div>
-  <div class="card-grid">
-    <div class="card">
-      <div class="card-img" ><img src="images/Hypnotic Poison Dior.jpg" alt=""style="width: 3000px; height: 80vh;"></div>
-      <div class="card-body">
-        <div class="card-title">Classic Perfume</div>
-        <div class="card-desc">Crunchy, lightly sweet, made fresh per order.</div>
-        <div class="card-price">₦0,000 / bag</div>
+ 
+  <div class="tab-row">
+    <button class="tab-btn active" data-tab="perfume">Perfumes</button>
+    <button class="tab-btn" data-tab="bodyspray">Body Spray</button>
+    <button class="tab-btn" data-tab="bodymist">Body Mist</button>
+    <button class="tab-btn" data-tab="airfreshener">Air Fresheners</button>
+    <button class="tab-btn" data-tab="diffuser">Diffusers</button>
+  </div>
+ 
+  <div class="tab-panel active" data-panel="perfume">
+    <div class="tab-count">Perfumes</div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-img"><img src="images/aroma.jpg" alt="Perfume" style="width:100%; height:40vh;"></div>
+        <div class="card-body">
+          <div class="card-title">Perfume name</div>
+          <div class="card-desc">Scent notes — e.g. citrus, oud, vanilla. Bottle size.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img"><img src="images/pef.jpg" alt="Perfume"></div>
+        <div class="card-body">
+          <div class="card-title">Perfume name</div>
+          <div class="card-desc">Scent notes — e.g. citrus, oud, vanilla. Bottle size.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img"><img src="images/Hypnotic Poison Dior.jpg" alt="Perfume"></div>
+        <div class="card-body">
+          <div class="card-title">Perfume name</div>
+          <div class="card-desc">Scent notes — e.g. citrus, oud, vanilla. Bottle size.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
       </div>
     </div>
-    <div class="card">
-      <div class="card-img"><img src="images/Perfume Árabe Masculino Asad Elixir 100ml.jpg" alt="" style="width: 3000px; height: 80vh;"></div>
-      <div class="card-body">
-        <div class="card-title">Spicy Perfume</div>
-        <div class="card-desc">Classic recipe with a chilli kick.</div>
-        <div class="card-price">₦0,000 / bag</div>
+  </div>
+ 
+  <div class="tab-panel" data-panel="bodyspray">
+    <div class="tab-count">Body Spray</div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-img"><img src="images/download (6).jpg" alt=""></div>
+        <div class="card-body">
+          <div class="card-title">Body spray name</div>
+          <div class="card-desc">Scent family, can size (e.g. 200ml).</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img"><img src="images/bandgifts.jpg" alt=""></div>
+        <div class="card-body">
+          <div class="card-title">Body spray name</div>
+          <div class="card-desc">Scent family, can size (e.g. 200ml).</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img"><img src="images/amber wood.jpg" alt=""></div>
+        <div class="card-body">
+          <div class="card-title">Body spray name</div>
+          <div class="card-desc">Scent family, can size (e.g. 200ml).</div>
+          <div class="card-price">₦0,000</div>
+        </div>
       </div>
     </div>
-    <div class="card">
-      <div class="card-img"><img src="images/The best oud fragrances for men that evoke a warm, smoky aroma.jpg" alt=""></div>
-      <div class="card-body">
-        <div class="card-title">Party Pack</div>
-        <div class="card-desc">Bulk size for events and gatherings.</div>
-        <div class="card-price">₦0,000 / pack</div>
+  </div>
+ 
+  <div class="tab-panel" data-panel="bodymist">
+    <div class="tab-count">Body Mist</div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-img">body mist photo</div>
+        <div class="card-body">
+          <div class="card-title">Body mist name</div>
+          <div class="card-desc">Light, everyday scent. Bottle size.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">body mist photo</div>
+        <div class="card-body">
+          <div class="card-title">Body mist name</div>
+          <div class="card-desc">Light, everyday scent. Bottle size.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">body mist photo</div>
+        <div class="card-body">
+          <div class="card-title">Body mist name</div>
+          <div class="card-desc">Light, everyday scent. Bottle size.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="tab-panel" data-panel="airfreshener">
+    <div class="tab-count">Air Fresheners</div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-img">air freshener photo</div>
+        <div class="card-body">
+          <div class="card-title">Air freshener name</div>
+          <div class="card-desc">Room / car spray, scent, size.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">air freshener photo</div>
+        <div class="card-body">
+          <div class="card-title">Air freshener name</div>
+          <div class="card-desc">Room / car spray, scent, size.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">air freshener photo</div>
+        <div class="card-body">
+          <div class="card-title">Air freshener name</div>
+          <div class="card-desc">Room / car spray, scent, size.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="tab-panel" data-panel="diffuser">
+    <div class="tab-count">Diffusers</div>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-img">diffuser photo</div>
+        <div class="card-body">
+          <div class="card-title">Diffuser name</div>
+          <div class="card-desc">Reed count, scent, jar size, how long it lasts.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">diffuser photo</div>
+        <div class="card-body">
+          <div class="card-title">Diffuser name</div>
+          <div class="card-desc">Reed count, scent, jar size, how long it lasts.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img">diffuser photo</div>
+        <div class="card-body">
+          <div class="card-title">Diffuser name</div>
+          <div class="card-desc">Reed count, scent, jar size, how long it lasts.</div>
+          <div class="card-price">₦0,000</div>
+        </div>
       </div>
     </div>
   </div>
 </section>
+ 
+<div class="weave"></div>
  
 <section class="stall" id="catering">
   <div class="stall-head">
@@ -125,7 +392,7 @@
  
 <section class="order" id="order">
   <h2>Ready to order?</h2>
-  <p>Reach out on WhatsApp or Instagram and let us know what you'd like — clothes, Perfume, or catering for your next event.</p>
+  <p>Reach out on WhatsApp or Instagram and let us know what you'd like — clothes, perfumes, or catering for your next event.</p>
   <div class="btn-row">
     <a href="#" class="btn btn-solid">Order on WhatsApp</a>
     <a href="#" class="btn btn-outline">Follow on Instagram</a>
@@ -141,9 +408,7 @@
   </div>
 </footer>
  
-<script>
-  document.getElementById('year').textContent = new Date().getFullYear();
-</script>
+<script src="script.js"></script>
  
 </body>
 </html>
